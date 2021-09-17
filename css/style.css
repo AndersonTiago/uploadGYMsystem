@@ -1,0 +1,40 @@
+@media print{
+    #noprint{
+        display:none;
+    }
+    nav, footer, video, audio, object, embed,img { 
+        display:none; 
+    }
+    .print {
+        display:block;
+    }
+        
+    .no-print { 
+        display:none; 
+    }
+    .no-print2 { 
+        display:none; 
+    }
+ }
+
+ @page{
+   size: auto;
+   margin: 0mm;
+ }
+
+#cont_principal{
+    padding: 40px 6%;
+}
+#btn_cad_user{
+    margin: 0px auto;
+}
+.color-input{
+    background-color: #171717;
+    color: white;
+}
+.color-span{
+    background-color:#4f5b69 ;
+    color: white;
+    font-weight: bolder;
+}
+
